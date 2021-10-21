@@ -1,0 +1,255 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.menu {
+    background: #000;
+}
+
+.menu .menu-list,
+.menu .sub-menu {
+    list-style: none;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+.menu>.menu-list>li {
+    float: left;
+    position: relative;
+}
+
+.menu>.menu-list>li>a {
+    padding: 20px;
+    margin: 0 5px;
+    background: #000;
+}
+
+.menu>.menu-list>li:hover a {
+    background: #597FA6;
+}
+
+.menu>.menu-list>li:hover>.sub-menu {
+    display: block;
+}
+
+.menu>.menu-list>li>.sub-menu {
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    background: #597FA6;
+    min-width: 200px;
+    z-index: 1000;
+    display: none;
+}
+
+.menu>.menu-list>li>.sub-menu>li>a {
+    padding: 10px 20px;
+}
+
+.menu:after {
+    content: '.';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+}
+
+a:link,
+a:visited {
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+.text {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    text-align: center;
+}
+
+
+#principal {
+    width: 1300px;
+    height: 700px;
+    margin: auto;
+    position: relative;
+}
+
+#corpo {
+    width: 1300px;
+    height: 600px;
+    position: absolute;
+    top: 58px;
+    
+}
+
+#txt {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+}
+
+#icon-face {
+    width: 50px;
+    height: 50px;
+    left: 100px;
+    top: 500px;
+    position: absolute;
+}
+
+#face {
+    left: 70px;
+    top: 560px;
+    position: absolute;
+}
+
+#icon-insta {
+    width: 50px;
+    height: 50px;
+    left: 310px;
+    top: 500px;
+    position: absolute;
+}
+
+#insta {
+    left: 270px;
+    top: 560px;
+    position: absolute;
+}
+
+#icon-tt {
+    width: 50px;
+    height: 50px;
+    left: 505px;
+    top: 500px;
+    position: absolute;
+}
+
+#tt {
+    left: 480px;
+    top: 560px;
+    position: absolute;
+}
+
+#icon-pin {
+    width: 50px;
+    height: 50px;
+    left: 695px;
+    top: 500px;
+    position: absolute;
+}
+
+#pin {
+    left: 660px;
+    top: 560px;
+    position: absolute;
+}
+
+#icon-ttk {
+    width: 50px;
+    height: 50px;
+    left: 890px;
+    top: 500px;
+    position: absolute;
+}
+
+#ttk {
+    left: 870px;
+    top: 560px;
+    position: absolute;
+}
+
+#icon-wpp {
+    width: 50px;
+    height: 50px;
+    left: 1085px;
+    top: 500px;
+    position: absolute;
+}
+
+#wpp {
+    left: 1050px;
+    top: 560px;
+    position: absolute;
+}
+
+.share-btn {
+    display: inline-block;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em;
+    width: 4em;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
+    outline: none;
+    text-align: center;
+}
+
+.share-btn:hover {
+    color: #eeeeee;
+}
+
+.share-btn:active {
+    position: relative;
+    top: 10px;
+    box-shadow: none;
+    color: #e2e2e2;
+    outline: none;
+}
+
+.botao {
+    background-color: #000;
+}
+
+.long-share-btn {
+    display: inline-block;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em 1.5em;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
+    outline: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.long-share-btn:hover {
+    color: #eeeeee;
+}
+
+.long-share-btn:active {
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+    color: #e2e2e2;
+    outline: none;
+}
+
+a.long-share-btn {
+    text-decoration: none;
+}
